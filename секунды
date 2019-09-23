@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,a;
+	cout << "Vvedite kolichestvo sekund ";
+	cin >> n;
+	a = n % 60;
+	cout << a;
+    return 0;
+}
